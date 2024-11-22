@@ -21,6 +21,8 @@ If we read lines 285-288, “Different actions may result in different explainab
 
 <u>Novelty as in deviation from the test set.</u> We believe there is a misunderstanding here. We are not just generating concept images that are far away from test images. We are generating images that are far away from test images but “still provide a high TCAV score.” This is a challenging constrained optimization problem that we address using deep RL and diffusion. As the other reviewers also correctly identify, we do not think developing an algorithm to do this is trivial. <i>Please see the graph here for comparison.</i> The comparison to prior work is not trivial. Retrieval-based methods directly rely on the dataset, in its simplest form "cropping" parts of existing images to produce explanations. While such an approach can highlight important features in input images that help non-expert users understand the network’s decisions, it is inherently limited to patterns present in the dataset. RLPO, on the other hand, explores beyond the dataset, generating concepts that trigger the network–unveiling the vulnerabilities of a neural network help engineers fix issues of the neural network.
 
+<img src="../Images/output.png" alt="Image 3" width="30%">
+
 ### Weakness 3
 
 From an XAI perspective, the comparison might look unnecessary. However, since the major contribution of work is developing an algorithm, given the popularity of LLM feedback and human feedback these days, it raises the question why we use XAI feedback. We wanted to highlight the infeasibility of such feedback mechanisms in our framework. If the reviewer thinks this comparison is confusing to have in the main paper, we can move it to supplementary.
