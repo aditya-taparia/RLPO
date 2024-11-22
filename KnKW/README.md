@@ -37,17 +37,17 @@ Images generated after fine-tuning for concept “stripes” for the zebra class
 <b>Without RL</b>
 
 <p align="center">
-  <img src="../Images/R1.png" alt="Image 1" width="30%">
-  <img src="../Images/R2.png" alt="Image 2" width="30%">
-  <img src="../Images/R3.png" alt="Image 3" width="30%">
+  <img src="../Images/R1.jpg" alt="Image 1" width="30%">
+  <img src="../Images/R2.jpg" alt="Image 2" width="30%">
+  <img src="../Images/R3.jpg" alt="Image 3" width="30%">
 </p>
 
 <b>With RL</b>
 
 <p align="center">
-  <img src="../Images/R4.png" alt="Image 1" width="30%">
-  <img src="../Images/R5.png" alt="Image 2" width="30%">
-  <img src="../Images/R6.png" alt="Image 3" width="30%">
+  <img src="../Images/R4.jpg" alt="Image 1" width="30%">
+  <img src="../Images/R5.jpg" alt="Image 2" width="30%">
+  <img src="../Images/R6.jpg" alt="Image 3" width="30%">
 </p>
 
 ### Weakness 3
