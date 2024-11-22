@@ -56,9 +56,8 @@ Thank you for pointing out the typos. We have fixed them.
 ### Question 1
 
 <u>Why RL?</u>
-Using only GPT was indeed our first attempt, which proved to be inefficient. 
 
-Note that the action space is not 20 seed prompts but the combination of the 20 seed prompts. Assuming 30 mins per run, it will take 2^20 * 30 = 182 years to do this if we brute-force. Since RL intelligently and dynamically picks which prompt combinations to use (and not use), RLPO takes only ~8 hours. Therefore, unlike a static ranking approach, our RL-based framework is much more pragmatic to handle unbounded generative models. The high epsilon case in Table 1 is somewhat similar (yet better) to brute forcing through the seed prompts. 
+RLPO's action space is a combination of seed prompts. Assuming 30 mins per run, it will take 2^20 * 30 = 182 years (assuming maximum combination=20) to do this if we brute-force. Since RL intelligently and dynamically picks which prompt combinations to use (and not use), RLPO takes only ~8 hours. Therefore, unlike a static ranking approach, our RL-based framework is much more pragmatic to handle unbounded generative models. The high epsilon case in Table 1 is somewhat similar (yet better) to brute forcing through the seed prompts. 
 
 Images generated after fine-tuning for concept “stripes” for the zebra class with and without RL after 300 steps.
 
