@@ -28,9 +28,9 @@ If we read lines 285-288, “Different actions may result in different explainab
 <i>Please see calculations below to validate this.</i>
 | Metrics | Stripes-Running Concept | Running-Mud Concept | Mud-Stripes Concept |
 |-------------------------------|-----------------------------|-----------------------------|-----------------|
-| Average Wasserstein distance | 0.955 ± 0.074 | 0.828 ± 0.074 | 0.823 ± 0.068 |
-| Average Cosine similarity | 0.996 ± 0.0008 | 0.997 ± 0.0004 | 0.997 ± 0.0004 |
-| Average Hotelling's T-squared score | 2.462 ± 0.091 | 2.365 ± 0.081 | 2.663 ± 0.229 |
+| Average Cosine similarity | 0.677 ± 0.010 | 0.699 ± 0.0004 | 0.734 ± 0.0004 |
+| Average Wasserstein distance | 8.1533 ± 0.057 | 7.850 ± 0.022 | 7.480 ± 0.033 |
+| Average Hotelling's T-squared score | 7598.507 ± 84.5 | 13069.681 ± 2147.81 | 7615.731 ± 538.06 |
 | Are they from the same distribution? | No | No | No |
 
 
