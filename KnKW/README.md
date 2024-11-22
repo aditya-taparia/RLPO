@@ -49,8 +49,8 @@ Good point. Compared to a random search algorithm, RL dynamically rewards update
 <b>Intra-trial Concept Comparisons for “zebra” class across three trial runs:</b>
 | Metrics | Stripes-Stripes Concept | Running-Running Concept | Mud-Mud Concept |
 |-------------------------------|-----------------------------|-----------------------------|-----------------|
-| Average Wasserstein distance | 0.955 ± 0.074 | 0.828 ± 0.074 | |
-| Average Cosine similarity | 0.996 ± 0.0008 | 0.997 ± 0.0004 | |
+| Average Wasserstein distance | 0.955 ± 0.074 | 0.828 ± 0.074 | 0.823 ± 0.068 |
+| Average Cosine similarity | 0.996 ± 0.0008 | 0.997 ± 0.0004 | 0.997 ± 0.0004 |
 | Average Hotelling's T-squared score | 2.462 ± 0.091 | 2.365 ± 0.081 | 2.663 ± 0.229 |
 | Are they from the same distribution? | Yes | Yes | Yes |
 
