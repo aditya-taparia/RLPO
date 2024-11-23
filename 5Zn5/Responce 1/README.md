@@ -14,7 +14,7 @@ Understandable should be corrected as guessed. For instance, in the reviewer’s
 **Results:** The results in Table 2 shows that creator humans often recognized explanations from retrieval-based methods, as these align with cropped elements of the test images. However, they were less likely to guess generated explanations, even though these are valid concepts that influence the neural network's decision and have high TCAV scores. This confirms that our method successfully discovers valid explanations that are not immediately apparent to creator humans.
 
 <p align="center">
-  <img src="Images/R5_1.jpg" alt="Image 1" width="50%">
+  <img src="Images/R5 1.jpg" alt="Image 1" width="50%">
   <br>
   <p style="width: 50%; margin: 0 auto;" align="center">Figure 1:  A screenshot from our human survey with a sample question.</p>
 </p>
@@ -26,7 +26,7 @@ The concepts our method generates are explainable by design since RLPO iterative
 The user human would see something similar to Fig. 6 in manuscript (see Figure 2). For a zebra test point, the user will see three sets of concept images shown on the right, with the most important at the top. The red set (highest TCAV) highlights stripes, and on the left, it shows which parts of the test image these concepts are most relevant to. The other two sets provide supplementary explanations. The green set illustrates a green wooded background (note that Stable Diffusion’s seed for this was running, but RLPO fine-tuned it to generate such backgrounds—seeds are used only for our analysis and are not important for the user human). The blue concept set depicts a brown background with some green on the horizon. These supplementary explanations primarily describe the background. Consolidating everything, while the most important concept for the network to classify a zebra is black-and-white stripes, its habitat, including a brown background and green trees, also contributes to the classification.
 
 <p align="center">
-  <img src="Images/R5_2.jpg" alt="Image 2" width="70%">
+  <img src="Images/R5 2.jpg" alt="Image 2" width="70%">
   <br>
   <p style="width: 50%; margin: 0 auto;" align="center">Figure 2: The figure shows the concepts identified by our method and where they are located in the input class image (“zebra” class) for GoogleNet classifier. As highlighted the “stripes” concept image are located near zebra, the “running” concept images, showing trees are highlighting in background of the input image, and the “mud” concept highlighting the grass and soil in the input image. The concepts are ordered in their importance (TCAV score) with “stripes” being the highest and “mud” being the lowest for the selected class. (Fig. 6 in manuscript)</p>
 </p>
