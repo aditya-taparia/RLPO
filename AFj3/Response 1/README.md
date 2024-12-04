@@ -9,7 +9,7 @@ In this experiment, we choose a pretrained Googlenet classifier for the Tiger cl
 <p align="center">
   <img src="../Images/new_exp_1.jpg" alt="Image 1" width="50%">
   <br>
-  <p style="width: 50%; margin: 0 auto;" align="center">Figure 2: Explaination mapping between concepts learned and input for pretrained GoogleNet classifier on Tiger class.</p>
+  <p style="width: 50%; margin: 0 auto;" align="center">Figure 1: Explaination mapping between concepts learned and input for pretrained GoogleNet classifier on Tiger class.</p>
 </p>
 
 To this end, we generated 100 concept images based on concepts related to ‘orange black and white’ and ‘orange and black’ using a separate generative model and fine-tuned our Googlenet model. Running RLPO on this fine-tuned model revealed that the model learned some new concepts such as ‘whiskers’ and also revealed that previous concepts such as ‘orange black and white’ and ‘orange and black’ are now more important with TCAV scores of 1.0 and 1.0, respectively. This means that the classifier is now only looking at tiger pixels, not the background. (see dataset samples and shift plot  below).
@@ -21,10 +21,10 @@ This experiment clearly shows how the proposed method can be used to improve a n
 <p align="center">
   <img src="../Images/new_exp_2.jpg" alt="Image 1" width="50%">
   <br>
-  <p style="width: 50%; margin: 0 auto;" align="center">Figure 3: Dataset samples.</p>
+  <p style="width: 50%; margin: 0 auto;" align="center">Figure 2: Dataset samples.</p>
 </p>
 <p align="center">
   <img src="../Images/new_exp_3.jpg" alt="Image 1" width="50%">
   <br>
-  <p style="width: 50%; margin: 0 auto;" align="center">Figure 4: Fine-tuning based on important concept.</p>
+  <p style="width: 50%; margin: 0 auto;" align="center">Figure 3: Fine-tuning based on important concept.</p>
 </p>
