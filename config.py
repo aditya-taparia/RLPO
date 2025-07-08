@@ -3,7 +3,7 @@ import torchvision
 from torchvision import transforms
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-TRAIN_FOLDER = "../Dataset/imagenet-mini/train"
+TRAIN_FOLDER = "../Dataset/imagenet-mini/test"
 
 # Can be changed to any other class
 CLASS_NAME = "340" # Zebra
